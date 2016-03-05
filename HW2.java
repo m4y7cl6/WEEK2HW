@@ -16,7 +16,7 @@ public class HW2 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        /*int h1=4,h2=13,m1=23,m2=54,s1=45,s2=23;
+        int h1=4,h2=13,m1=23,m2=54,s1=45,s2=23;
         int sumh,summ,sums,total;
         System.out.println("4點23分45秒到13點54分23秒之間的總秒數");
         sumh=(h2-h1)*60*60;
@@ -24,9 +24,9 @@ public class HW2 {
         sums=s2-s1;
         total=sumh+summ+sums;
         
-        System.out.println(total);*/
+        System.out.println(total);
        
-        /*int temp=0;
+        int temp=0;
         float average=0;
         int arr[]={3,2,4,5,7,11};
         
@@ -37,9 +37,9 @@ public class HW2 {
         }
         System.out.println();
         average=(float)temp/arr.length;
-        System.out.println(average);*/
+        System.out.println(average);
         
-       /* String name;
+        String name;
         int year,month,day;
         Scanner scanner=new Scanner(System.in);
         System.out.println("請輸入姓名:");
@@ -49,9 +49,9 @@ public class HW2 {
         month=scanner.nextInt();
         day=scanner.nextInt();
         year-=1911;
-        System.out.println(name+"的民國生日為 "+year+" "+month+" "+day);*/
+        System.out.println(name+"的民國生日為 "+year+" "+month+" "+day);
         
-        /*float num1,num2,sum=0;
+        float num1,num2,sum=0;
         int op=0;
         System.out.println("請輸入兩個數字:");
         Scanner scanner=new Scanner(System.in);
@@ -87,9 +87,9 @@ public class HW2 {
             default:
                 break;
         } 
-        System.out.println("SUM="+sum);*/
+        System.out.println("SUM="+sum);
   
-        /*int count=0,year;  
+        int count=0,year;  
         int mod4,mod100,mod400;
         String temp;
         String arr[]=new String [2000];
@@ -124,9 +124,9 @@ public class HW2 {
                //arr[count]=temp;
            }
          }
-      }*/
+      }
       
-      /*int n,c,id;
+      int n,c,id;
       String arr[][]=new String [100][2]; 
       int grade[]=new int [100]; 
       String temp;
@@ -167,7 +167,7 @@ public class HW2 {
              c=1;
       }
       if(c==1)
-          System.out.println("找不到此編號");*/
+          System.out.println("找不到此編號");
       
     }      
 }
