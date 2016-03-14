@@ -29,7 +29,7 @@ public class HW2 {
         else
         {
             Oval O = new Oval(arr[id][0],arr[id][1]);
-            System.out.println("編號 "+Num[id]+"面積:"+ O.Arc());
+            System.out.println("編號 "+Num[id]+"面積:"+ O.Arc()+ "周長:" + O.Pie());
         }      
     }
 }
@@ -63,4 +63,8 @@ class Oval extends Circle
     {
         return 3.14 * r * rb ;
     }
+     double Pie()
+    {   
+       return Math.sqrt(2*r*2*rb*3.14*3.14 + (2*r-2*rb)*(2*r-2*rb));
+    }    
 }
